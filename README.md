@@ -1,115 +1,54 @@
- # ⭐️ Alura Challenge - Oracle ONE  
+ # ⭐️ Alura Challenge 2 - Oracle ONE  
 
- ![image](/assets/logoAlura.png)
+ ![image](/assets/listos-para-iniciar.png)
 
-Bien, vamos a realizar un proyecto empezando desde los requerimientos:
+Bien, vamos a realizar el segundo desafio¡
 
-# Encriptador de Texto
+En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, para que pongamos en practica lo que hemos aprendido en la formacion de **Principiante en Programacion**.
+
+# Juego del ahorcado
 
 ```markdown
-
-Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
-
-Las "llaves" de encriptación que utilizaremos son las siguientes:
-
-`La letra "e" es convertida para "enter"`
-`La letra "i" es convertida para "imes"`
-`La letra "a" es convertida para "ai"`
-`La letra "o" es convertida para "ober"`
-`La letra "u" es convertida para "ufat"`
-
-**Requisitos:**
-- Debe funcionar solo con letras minúsculas
-- No deben ser utilizados letras con acentos ni caracteres especiales
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
-
-Por ejemplo:
-`"gato" => "gaitober"`
-`gaitober" => "gato"`
-
-- La página debe tener campos para 
-inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-- El resultado debe ser mostrado en la pantalla.
-
-**Extras:**
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
-
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma: 
-
-1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aun no fueron desarrollados.
-2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
-
-El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
-
- Buen proyecto!
-
+  Requisitos:
+- Debe funcionar solo con letras mayusculas;
+- No deben ser utilizadas letras con acentos ni caracteres especiales;
+- Al completar el dibujo de la horca, debe mostrar un mensaje "Fin del juego" en la pantalla;
+- Si se completa la palabra correcta antes de que se acaben los intentos, debe ser mostrado un mensaje de "Ganaste, Felicidades!" en la pantalla.
+- La pagina debe tener los guiones indicando cada letra de la palabra separada por un espacio;
+- Para comenzar el juego la pagina debe tener un boton de "Iniciar Juego";
+- No debe ser posible escribir numeros dentro del juego.
+- Las letras equivocadas deben aparecen en la pantalla, pero no pueden aparecer de forma repetida;
+- Las correctas deben aparecer en la pantalla encima de los guiones, en la posicion correcta en relacion a la palabra.
 ```
+**Modolo Figma**
+- Esta es la plantilla propuesta para el desafio, puedes darle estilo como te parezca.<br>
+**Desktop Desing**
+
+![image](/assets/Ahorcado%20-%201%20Desktop.png)<br>
+
+**Tablet Desing**
+
+![image](/assets/Ahorcado%20-%203%20Tablet.png)<br>
+
+**Mobile Desing**
+
+![image](/assets/Ahorcado%20-4%20Celular.png)<br>
 
 # Solución paso a paso
 
 ## Creación del proyecto
 
-1. Crea un folder llamado `challenge1`.
-![folder](/assets/carpeta.png)
-2. Dentro de él crea los archivos `index.html, styles.css, script.js`.
-![archivos](/assets/archivos.png)
+## Elementos principales de la pagina
+* Logo
+* Boton para iniciar el juego
+* Area para mostrar la horca y las letras de la palabra
+  
+**Extra**
+* Un footer con los datos de la persona que desarrolla el sitio web¡
 
-**IMPORTANTE: Puedes realizar dentro de tu carpeta `Oracle ONE`**
 
-## Estructura de carpetas
-
-Como vamos a realizar un nuevo proyecto, necesitamos tener una buena organización en nuestros directorios:
-- Dentro de la carpeta `assets` contiene las imagenes que usaremos. 
-
-## Modelo Figma
-
-```
-Plantilla propuesta para la implementación de este desafío, recuerda que puedes usar CSS  para modificar colores y fuentes, adicionar bordes y hasta hacer animaciones! Por ejemplo:
-
--Cambiar la fuente, el tamaño y el color del título;
--Adicionar un color, degradado o imagen como fondo de tu sitio web;
--Cambiar estilos, colores y bordes de los botones, explotar tu creatividad o puedes replicar exactamente el mismo diseño presentado, todo quedará a tu criterio.
-. 
-```
-![image](/assets/Figma.png)
-
-2. En la siguiente imagen se muestran los elementos necesarios para nuestra app `Elementos principales de la pagina` se deberan incluir en la maquetacion.
-
-![image](/assets/elementos.png)
-
-3. Debemos agregar un campo para el texto que va ser cifrado/descifrado `input` podemos hacer uso de alguna etiqueta HTML.
-
-![image](/assets/input.png)
-
-4. Debemos agregar un area para el texto cifrado/descifrado `input` podemos ocultar y mostrar diferentes elementos dependiendo del estado. 
-
-![image](/assets/area1.png)
-
-![image](/assets/area2.png)
-
-5. Debemos agregar un boton para copiar texto `copiar` puedes verificar en la documentacion de MDN, en caso de dudas.  
-
-![image](/assets/copiar.png)
-
-6. Crea el repositorio de tu proyecto en `GitHub` puedes verificar en la documentacion de Git y GitHub, en caso de dudas.  
-
-![image](/assets/github.png)
-
-7. Publica tu pagina en  `GitHub Pages` para que sea visible y se publique tu contenido.  
-
-![image](/assets/githubPages.png)
-
-8. Debemos agregar un boton para copiar texto `copiar` puedes verificar en la documentacion de MDN, en caso de dudas.  
-
-![image](/assets/copiar.png)
-
-9. Decifra nuestro  `Mensaje secreto¡` usa la app para esta actividad.  
-
-![image](/assets/mensaje.png)
-
-9. Entrega el desafio `Proceso de la entrega`.
+## Publica tu pagina
+1. Entrega el desafio `Proceso de la entrega`.
 - Sube el Proyecto a Git Hub.
 
 ![image](/assets/github.png)]
