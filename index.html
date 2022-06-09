@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hangman Game">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="/style.css">
     <title>Hangman Game || Alura Latam One Education</title>
@@ -17,8 +17,8 @@
     <!--HEADER-->
     <header>
         <div class="row row-cols-1" style="border: solid red">
-            <div class="col" style="display: inline-flexbox; border: solid salmon; align-items: baseline; " >
-                <img src="/assets/logo.png" alt="aluraLogo" style="border: solid green;"> 
+            <div class="col" style="display: inline-flexbox; border: solid salmon; align-items: baseline; ">
+                <img src="/assets/logo.png" alt="aluraLogo" style="border: solid green;">
                 <h1 style="display: inline; border: solid blue; float: right; "> Hangman Game</h1>
             </div>
         </div>
@@ -50,6 +50,18 @@
             </form>
         </div>
         <!--ADD WORD-->
+        <div id="addWords" class="no-display">
+            <!--FORM-->
+            <for class="addwor_form">
+                <textarea name="adding_words" id="texto" placeholder="Add Word here Please..." required></textarea>
+                <!--INFO-->
+                <div class="info" style="border: color red;">
+                    <span class="material-symbols-outlined">
+                        info
+                    </span>
+                </div>
+            </for>
+        </div>
     </section>
 </body>
 
