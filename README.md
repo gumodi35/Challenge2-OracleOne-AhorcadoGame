@@ -24,15 +24,11 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 - Esta es la plantilla propuesta para el desafio, puedes darle estilo como te parezca.<br>
 **Desktop Desing**
 
-![image](/img/Ahorcado%20-%201%20Desktop.png)<br>
 
 **Tablet Desing**
 
-![image](/img/Ahorcado%20-%203%20Tablet.png)<br>
 
 **Mobile Desing**
-
-![image](/img/Ahorcado%20-4%20Celular.png)<br>
 
 # Solución paso a paso
 
@@ -54,15 +50,10 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 ![image](/img/github.png)]
 
 - Publica en Git Hub Pages
-  [Challenge1](https://gumodi35.github.io/Challenge-Oracle-One_Gualberto/)
+ 
 - Agrega el #challengeonecodificador2
 - Rellene el formulario de envio 
-![image](/img/formulario.png)
-
-![image](/img/confirmacion.png)
 - Revisa tu correo electronico y obten tu Badge
-![image](/img/insignia.png)
-- Publica un video y/o tu proyecto en LinkedIn
-[Video LinkedIn](https://www.linkedin.com/posts/gualbertomondi_oracle-challengeonecodificador2-developer-activity-6929910375639355392-S1NK?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
-![image](/img/insignia2.png)
+- Publica un video y/o tu proyecto en LinkedIn
+[Video LinkedIn]()
