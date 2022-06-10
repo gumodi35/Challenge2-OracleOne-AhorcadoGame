@@ -24,8 +24,6 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 - Esta es la plantilla propuesta para el desafio, puedes darle estilo como te parezca.<br>
 **Desktop Desing**
 
-**Tablet Desing**
-
 **Mobile Desing**
 
 # Solución paso a paso
@@ -56,3 +54,4 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 [Video LinkedIn](https://www.linkedin.com/posts/gualbertomondi_aluralatam-challenge2alura-oracleonenexteducation-activity-6940940038054572032-k2Le?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - Recibe tu insignia
 ![image](/img/insignia.png)
+
