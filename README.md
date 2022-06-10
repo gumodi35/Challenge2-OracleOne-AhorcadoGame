@@ -47,7 +47,7 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 
 - Publica en Git Hub Pages
   [Challenge2](https://github.com/gumodi35/Challenge2-OracleOne-AhorcadoGame)
-- Agrega el [LinkedIn](https://www.linkedin.com/in/gualbertomondi/)
+- Despliegue en GitHub Pages [Live de la app](t https://gumodi35.github.io/Challenge2-OracleOne-AhorcadoGame/)
 - Rellene el formulario de envio 
 - Revisa tu correo electronico y obten tu Badge
 - Publica un video y/o tu proyecto en LinkedIn
