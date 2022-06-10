@@ -24,10 +24,6 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 - Esta es la plantilla propuesta para el desafio, puedes darle estilo como te parezca.<br>
 **Desktop Desing**
 
-
-**Tablet Desing**
-
-
 **Mobile Desing**
 
 # Solución paso a paso
@@ -50,10 +46,12 @@ En estas dos semanas vamos a trabajar en un proyecto de **juego del ahorcado**, 
 ![image](/img/github.png)]
 
 - Publica en Git Hub Pages
- 
-- Agrega el #challengeonecodificador2
+  [Challenge2](https://github.com/gumodi35/Challenge2-OracleOne-AhorcadoGame)
+- Agrega el #https://www.linkedin.com/in/gualbertomondi/
 - Rellene el formulario de envio 
 - Revisa tu correo electronico y obten tu Badge
-
 - Publica un video y/o tu proyecto en LinkedIn
-[Video LinkedIn]()
+[Video LinkedIn](https://www.linkedin.com/posts/gualbertomondi_aluralatam-challenge2alura-oracleonenexteducation-activity-6940940038054572032-k2Le?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- Recibe tu insignia
+![image](/img/insignia.png)
+
