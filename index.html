@@ -39,43 +39,60 @@
                     <input id="add" class="btn btn-secondary" type="button" value="Add word">
                 </form>
             </div>
-        </div>
 
-        <!--GAME-->
-        <div id="game" class="no-display">
-            <div class="state-nodisplay"></div>
-            <canvas class="hangman" width="355" height="354"></canvas>
-            <div class="correct"></div>
-            <div class="incorrect"></div>
-            <div class="keyboard">
-                <div class="row1"></div>
-                <div class="row2"></div>
-                <div class="row3"></div>
+
+            <!--GAME-->
+            <div id="game" class="no-display">
+                <div class="state-nodisplay"></div>
+                <canvas class="hangman" width="355" height="354"></canvas>
+                <div class="correct"></div>
+                <div class="incorrect"></div>
+                <div class="keyboard">
+                    <div class="row1"></div>
+                    <div class="row2"></div>
+                    <div class="row3"></div>
+                </div>
+                <form action="" class="game_btns">
+                    <input id="new" class="btn btn-primary" type="button" value="New Game">
+                    <input id="over" class="btn btn-seconday" type="button" value="Game over">
+                </form>
             </div>
-            <form action="" class="game_btns">
-                <input id="new" class="btn btn-primary" type="button" value="New Game">
-                <input id="over" class="btn btn-seconday" type="button" value="Game over">
-            </form>
+            <!--ADD WORD-->
+            <div id="addWords" class="no-display">
+                <!--FORM-->
+                <for class="addwor_form">
+                    <textarea name="adding_words" id="texto" placeholder="Add Word here Please..." required></textarea>
+                    <!--INFO-->
+                    <div class="info">
+                        <span class="material-symbols-outlined">
+                            exclamation
+                        </span>
+                        <p id="warning">Max. 8 letras mayusculas</p>
+                    </div>
+                    <!--ADDWORD BTNS-->
+                    <div class="addWord_btns">
+                        <input type="button" id="save" class="btn btn-primary" value="Save and Start">
+                        <input type="button" id="cancel" class="btn-secondary" value="Cancel">
+                    </div>
+                    <!--DIALOG-->
+                    <dialog id="dialog" class="dialog">
+                        <input type="button" value="X">
+                        <p>only uppercase without special characters is accepted</p>
+                    </dialog>
+                    <!--DIALOGTWO-->
+                    <dialog id="dialogtwo" class="dialog">
+                        <input type="button" value="X" maxlength="8" minlength="3">
+                        <p>The word must have a maximum of 8 letters and a minimum of 1 letter.</p>
+                    </dialog>
+                </form>
+            </div>
         </div>
-        <!--ADD WORD-->
-        <!-- <div id="addWords" class="no-display"> -->
-        <!--FORM-->
-        <!-- <for class="addwor_form">
-                <textarea name="adding_words" id="texto" placeholder="Add Word here Please..." required></textarea> -->
-        <!--INFO-->
-        <!-- <div class="info" style="border: color red;">
-                    <span class="material-symbols-outlined">
-                        info
-                    </span> -->
-        <!--NIGHT AND LIGHT MODE-->
-        <!-- <div class="modo">
-                    <p id="text_mode">Dark mode</p>
-                    <input id="mode" type="image" src="/assets/moon.png" alt="Dark mode logo">
-                </div>
-                </div>
-            </for>
-        </div>-->
     </section>
+    <!--FOOTER-->
+    <div class="contenedor footer">
+        
+        
+    </div>
 </body>
 
 </html>
